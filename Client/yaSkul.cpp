@@ -4,7 +4,6 @@
 #include "yaInput.h"
 #include "yaResources.h"
 #include "yaTransform.h"
-#include <stdio.h>
 
 namespace ya
 {

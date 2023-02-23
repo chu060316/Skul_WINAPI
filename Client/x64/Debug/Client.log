@@ -1,28 +1,11 @@
 ﻿  main.cpp
 C:\Users\COM\Desktop\GAME_DEVELOP\ASSORTROCK\수업코드\API\Skul_WINAPI\Client\yaMath.h(22,6): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
 C:\Users\COM\Desktop\GAME_DEVELOP\ASSORTROCK\수업코드\API\Skul_WINAPI\Client\yaMath.h(23,6): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  yaEndingScene.cpp
-C:\Users\COM\Desktop\GAME_DEVELOP\ASSORTROCK\수업코드\API\Skul_WINAPI\Client\yaMath.h(22,6): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\COM\Desktop\GAME_DEVELOP\ASSORTROCK\수업코드\API\Skul_WINAPI\Client\yaMath.h(23,6): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  yaResources.cpp
-C:\Users\COM\Desktop\GAME_DEVELOP\ASSORTROCK\수업코드\API\Skul_WINAPI\Client\yaMath.h(22,6): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\COM\Desktop\GAME_DEVELOP\ASSORTROCK\수업코드\API\Skul_WINAPI\Client\yaMath.h(23,6): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   yaApplication.cpp
 C:\Users\COM\Desktop\GAME_DEVELOP\ASSORTROCK\수업코드\API\Skul_WINAPI\Client\yaMath.h(22,6): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
 C:\Users\COM\Desktop\GAME_DEVELOP\ASSORTROCK\수업코드\API\Skul_WINAPI\Client\yaMath.h(23,6): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\COM\Desktop\GAME_DEVELOP\ASSORTROCK\수업코드\API\Skul_WINAPI\Client\yaApplication.cpp(28,23): warning C4838: 'UINT'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
-C:\Users\COM\Desktop\GAME_DEVELOP\ASSORTROCK\수업코드\API\Skul_WINAPI\Client\yaApplication.cpp(28,32): warning C4838: 'UINT'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
-  yaComponent.cpp
-C:\Users\COM\Desktop\GAME_DEVELOP\ASSORTROCK\수업코드\API\Skul_WINAPI\Client\yaMath.h(22,6): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\COM\Desktop\GAME_DEVELOP\ASSORTROCK\수업코드\API\Skul_WINAPI\Client\yaMath.h(23,6): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  yaSkul.cpp
-C:\Users\COM\Desktop\GAME_DEVELOP\ASSORTROCK\수업코드\API\Skul_WINAPI\Client\yaMath.h(22,6): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\COM\Desktop\GAME_DEVELOP\ASSORTROCK\수업코드\API\Skul_WINAPI\Client\yaMath.h(23,6): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\COM\Desktop\GAME_DEVELOP\ASSORTROCK\수업코드\API\Skul_WINAPI\Client\yaSkul.cpp(55,34): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\COM\Desktop\GAME_DEVELOP\ASSORTROCK\수업코드\API\Skul_WINAPI\Client\yaSkul.cpp(55,21): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  yaEntity.cpp
-C:\Users\COM\Desktop\GAME_DEVELOP\ASSORTROCK\수업코드\API\Skul_WINAPI\Client\yaMath.h(22,6): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\COM\Desktop\GAME_DEVELOP\ASSORTROCK\수업코드\API\Skul_WINAPI\Client\yaMath.h(23,6): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\COM\Desktop\GAME_DEVELOP\ASSORTROCK\수업코드\API\Skul_WINAPI\Client\yaApplication.cpp(25,23): warning C4838: 'UINT'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\COM\Desktop\GAME_DEVELOP\ASSORTROCK\수업코드\API\Skul_WINAPI\Client\yaApplication.cpp(25,32): warning C4838: 'UINT'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
   yaGameObject.cpp
 C:\Users\COM\Desktop\GAME_DEVELOP\ASSORTROCK\수업코드\API\Skul_WINAPI\Client\yaMath.h(22,6): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
 C:\Users\COM\Desktop\GAME_DEVELOP\ASSORTROCK\수업코드\API\Skul_WINAPI\Client\yaMath.h(23,6): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
@@ -32,34 +15,27 @@ C:\Users\COM\Desktop\GAME_DEVELOP\ASSORTROCK\수업코드\API\Skul_WINAPI\Client
   yaInput.cpp
 C:\Users\COM\Desktop\GAME_DEVELOP\ASSORTROCK\수업코드\API\Skul_WINAPI\Client\yaMath.h(22,6): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
 C:\Users\COM\Desktop\GAME_DEVELOP\ASSORTROCK\수업코드\API\Skul_WINAPI\Client\yaMath.h(23,6): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  yaLayer.cpp
-C:\Users\COM\Desktop\GAME_DEVELOP\ASSORTROCK\수업코드\API\Skul_WINAPI\Client\yaMath.h(22,6): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\COM\Desktop\GAME_DEVELOP\ASSORTROCK\수업코드\API\Skul_WINAPI\Client\yaMath.h(23,6): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  yaMath.cpp
-C:\Users\COM\Desktop\GAME_DEVELOP\ASSORTROCK\수업코드\API\Skul_WINAPI\Client\yaMath.h(22,6): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\COM\Desktop\GAME_DEVELOP\ASSORTROCK\수업코드\API\Skul_WINAPI\Client\yaMath.h(23,6): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   yaPlayeScene.cpp
 C:\Users\COM\Desktop\GAME_DEVELOP\ASSORTROCK\수업코드\API\Skul_WINAPI\Client\yaMath.h(22,6): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
 C:\Users\COM\Desktop\GAME_DEVELOP\ASSORTROCK\수업코드\API\Skul_WINAPI\Client\yaMath.h(23,6): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   yaResource.cpp
 C:\Users\COM\Desktop\GAME_DEVELOP\ASSORTROCK\수업코드\API\Skul_WINAPI\Client\yaMath.h(22,6): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
 C:\Users\COM\Desktop\GAME_DEVELOP\ASSORTROCK\수업코드\API\Skul_WINAPI\Client\yaMath.h(23,6): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  yaScene.cpp
+  yaResources.cpp
 C:\Users\COM\Desktop\GAME_DEVELOP\ASSORTROCK\수업코드\API\Skul_WINAPI\Client\yaMath.h(22,6): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
 C:\Users\COM\Desktop\GAME_DEVELOP\ASSORTROCK\수업코드\API\Skul_WINAPI\Client\yaMath.h(23,6): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   yaSceneManager.cpp
 C:\Users\COM\Desktop\GAME_DEVELOP\ASSORTROCK\수업코드\API\Skul_WINAPI\Client\yaMath.h(22,6): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
 C:\Users\COM\Desktop\GAME_DEVELOP\ASSORTROCK\수업코드\API\Skul_WINAPI\Client\yaMath.h(23,6): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  yaStoryScene.cpp
+  yaSkul.cpp
 C:\Users\COM\Desktop\GAME_DEVELOP\ASSORTROCK\수업코드\API\Skul_WINAPI\Client\yaMath.h(22,6): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
 C:\Users\COM\Desktop\GAME_DEVELOP\ASSORTROCK\수업코드\API\Skul_WINAPI\Client\yaMath.h(23,6): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\COM\Desktop\GAME_DEVELOP\ASSORTROCK\수업코드\API\Skul_WINAPI\Client\yaSkul.cpp(55,34): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\COM\Desktop\GAME_DEVELOP\ASSORTROCK\수업코드\API\Skul_WINAPI\Client\yaSkul.cpp(55,21): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   yaTime.cpp
 C:\Users\COM\Desktop\GAME_DEVELOP\ASSORTROCK\수업코드\API\Skul_WINAPI\Client\yaMath.h(22,6): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
 C:\Users\COM\Desktop\GAME_DEVELOP\ASSORTROCK\수업코드\API\Skul_WINAPI\Client\yaMath.h(23,6): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\COM\Desktop\GAME_DEVELOP\ASSORTROCK\수업코드\API\Skul_WINAPI\Client\yaTime.cpp(27,29): warning C4244: '초기화 중': 'LONGLONG'에서 'double'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  yaTitleScene.cpp
-C:\Users\COM\Desktop\GAME_DEVELOP\ASSORTROCK\수업코드\API\Skul_WINAPI\Client\yaMath.h(22,6): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\COM\Desktop\GAME_DEVELOP\ASSORTROCK\수업코드\API\Skul_WINAPI\Client\yaMath.h(23,6): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\COM\Desktop\GAME_DEVELOP\ASSORTROCK\수업코드\API\Skul_WINAPI\Client\yaTime.cpp(25,29): warning C4244: '초기화 중': 'LONGLONG'에서 'double'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   yaTransform.cpp
 C:\Users\COM\Desktop\GAME_DEVELOP\ASSORTROCK\수업코드\API\Skul_WINAPI\Client\yaMath.h(22,6): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
 C:\Users\COM\Desktop\GAME_DEVELOP\ASSORTROCK\수업코드\API\Skul_WINAPI\Client\yaMath.h(23,6): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.

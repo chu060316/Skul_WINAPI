@@ -1,11 +1,6 @@
 #pragma once
 #include "yaComponent.h"
 
-// std::map API 끝나고 dx 들어가기전에 한 3~5일 만든다.
-// top down 방식
-// 이론 -> 연습
-// 연습 -> 이론
-
 namespace ya
 {
 	class Transform : public Component

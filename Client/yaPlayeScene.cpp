@@ -34,7 +34,6 @@ namespace ya
 
 	void PlayeScene::Render(HDC hdc)
 	{
-		//Super::Tick();
 		Scene::Render(hdc);
 	}
 
@@ -47,6 +46,5 @@ namespace ya
 	}
 	void PlayeScene::OnExit()
 	{
-		//mSkul->SetPos(Vector2{ 0.0f, 0.0f });
 	}
 }

@@ -31,13 +31,6 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
     UNREFERENCED_PARAMETER(hPrevInstance);
     UNREFERENCED_PARAMETER(lpCmdLine);
     _CrtSetDbgFlag(_CRTDBG_ALLOC_MEM_DF | _CRTDBG_LEAK_CHECK_DF);
-    //_CrtSetBreakAlloc(217); // 추가
-    // 1. 윈도우의 정보를 담고있는 클래스를 정의(메모리에 등록)해주어야한다.
-    // 2. CreateWindow함수를 통해서 메모리상에 윈도우를 할당해준다.
-    // 3. ShowWindow함수를 통해서 화면에 보여준다.
-    // 4. 윈도우 클래스를 정의할떄 등록된 메서지 처리함수를
-    //    순회하면서 들어오는 메세지를 처리해준다.
-
 
     // 전역 문자열을 초기화합니다.
     LoadStringW(hInstance, IDS_APP_TITLE, szTitle, MAX_LOADSTRING);

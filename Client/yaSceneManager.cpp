@@ -6,8 +6,6 @@
 
 namespace ya
 {	
-	//SceneManager scsene;
-	//SceneManager* scsene = new SceneManager();
 	std::vector<Scene*> SceneManager::mScenes = {};
 	Scene* SceneManager::mActiveScene = nullptr;
 
@@ -55,10 +53,8 @@ namespace ya
 
 	void SceneManager::LoadScene(eSceneType type)
 	{
-		// ÇöÀç¾À
 		mActiveScene->OnExit();
 		
-		//´ÙÀ½¾À
 		mActiveScene = mScenes[(UINT)type];
 		mActiveScene->OnEnter();
 	}
