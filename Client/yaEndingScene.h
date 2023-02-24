@@ -3,6 +3,7 @@
 
 namespace ya
 {
+	class EndingBG;
 	class EndingScene : public Scene
 	{
 	public:
@@ -16,7 +17,8 @@ namespace ya
 
 		virtual void OnEnter() override;
 		virtual void OnExit() override;
-	private:
 
+	private:
+		EndingBG* mEndingBG;
 	};
 }

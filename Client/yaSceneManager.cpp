@@ -2,7 +2,7 @@
 #include "yaPlayeScene.h"
 #include "yaTitleScene.h"
 #include "yaEndingScene.h"
-#include "yaStoryScene.h"
+#include "yaLobbyScene.h"
 
 namespace ya
 {	
@@ -16,7 +16,7 @@ namespace ya
 		mScenes[(UINT)eSceneType::Title] = new TitleScene();
 		mScenes[(UINT)eSceneType::Play] = new PlayeScene();
 		mScenes[(UINT)eSceneType::Ending] = new EndingScene();
-		mScenes[(UINT)eSceneType::Story] = new StoryScene();
+		mScenes[(UINT)eSceneType::Lobby] = new LobbyScene();
 
 		mActiveScene = mScenes[(UINT)eSceneType::Title];
 

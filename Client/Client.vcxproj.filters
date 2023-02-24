@@ -50,6 +50,9 @@
     <Filter Include="Engine\Resource">
       <UniqueIdentifier>{25bd4d29-77ad-4205-b963-e464704dbafe}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Contents\Background">
+      <UniqueIdentifier>{7dd9f4dc-5154-4a21-95fd-d3025b728174}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Client.h">
@@ -127,8 +130,20 @@
     <ClInclude Include="yaEndingScene.h">
       <Filter>Contents\Scene</Filter>
     </ClInclude>
-    <ClInclude Include="yaStoryScene.h">
+    <ClInclude Include="yaLobbyScene.h">
       <Filter>Contents\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="yaTitleBG.h">
+      <Filter>Contents\Background</Filter>
+    </ClInclude>
+    <ClInclude Include="yaPlayeBG.h">
+      <Filter>Contents\Background</Filter>
+    </ClInclude>
+    <ClInclude Include="yaLobbyBG.h">
+      <Filter>Contents\Background</Filter>
+    </ClInclude>
+    <ClInclude Include="yaEndingBG.h">
+      <Filter>Contents\Background</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -202,8 +217,20 @@
     <ClCompile Include="yaEndingScene.cpp">
       <Filter>Contents\Scene</Filter>
     </ClCompile>
-    <ClCompile Include="yaStoryScene.cpp">
+    <ClCompile Include="yaLobbyScene.cpp">
       <Filter>Contents\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="yaTitleBG.cpp">
+      <Filter>Contents\Background</Filter>
+    </ClCompile>
+    <ClCompile Include="yaPlayeBG.cpp">
+      <Filter>Contents\Background</Filter>
+    </ClCompile>
+    <ClCompile Include="yaLobbyBG.cpp">
+      <Filter>Contents\Background</Filter>
+    </ClCompile>
+    <ClCompile Include="yaEndingBG.cpp">
+      <Filter>Contents\Background</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

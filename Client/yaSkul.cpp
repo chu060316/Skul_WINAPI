@@ -15,7 +15,7 @@ namespace ya
 	}
 	void Skul::Initialize()
 	{
-		mImage = Resources::Load<Image>(L"Skul", L"..\\Resources\\Idle.bmp");
+		mImage = Resources::Load<Image>(L"Skul", L"..\\Resources\\Idle2.bmp");
 
 		GameObject::Initialize();
 	}
@@ -26,25 +26,46 @@ namespace ya
 		Transform* tr = GetComponent<Transform>();
 		Vector2 pos = tr->GetPos();
 
-		if (GetAsyncKeyState(VK_LEFT) & 0x8000)
+		/*if (GetAsyncKeyState(VK_LEFT) & 0x8000)
 		{
-			pos.x -= 0.5f;
+			pos.x -= 0.3f;
 		}
 
 		if (GetAsyncKeyState(VK_RIGHT) & 0x8000)
 		{
-			pos.x += 0.5f;
+			pos.x += 0.3f;
 		}
 
 		if (GetAsyncKeyState(VK_UP) & 0x8000)
 		{
-			pos.y -= 0.5f;
+			pos.y -= 0.3f;
 		}
 
 		if (GetAsyncKeyState(VK_DOWN) & 0x8000)
 		{
-			pos.y += 0.5f;
+			pos.y += 0.3f;
+		}*/
+
+		if (Input::GetKeyState(eKeyCode::A) == eKeyState::Pressed)
+		{
+			pos.x -= 500.0f * Time::DeltaTime();
 		}
+
+		if (Input::GetKeyState(eKeyCode::D) == eKeyState::Pressed)
+		{
+			pos.x += 500.0f * Time::DeltaTime();
+		}
+
+		if (Input::GetKeyState(eKeyCode::W) == eKeyState::Pressed)
+		{
+			pos.y -= 500.0f * Time::DeltaTime();
+		}
+
+		if (Input::GetKeyState(eKeyCode::S) == eKeyState::Pressed)
+		{
+			pos.y += 500.0f * Time::DeltaTime();
+		}
+
 		tr->SetPos(pos);
 	}
 	void Skul::Render(HDC hdc)
@@ -57,6 +78,5 @@ namespace ya
 	void Skul::Release()
 	{
 		GameObject::Release();
-
 	}
 }

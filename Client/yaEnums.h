@@ -4,7 +4,7 @@
 enum class eSceneType
 {
 	Title,
-	Story,
+	Lobby,
 	Play,
 	Ending,
 	End,

@@ -2,6 +2,7 @@
 #include "yaSkul.h"
 #include "yaInput.h"
 #include "yaSceneManager.h"
+#include "yaPlayeBG.h"
 
 namespace ya
 {
@@ -15,9 +16,10 @@ namespace ya
 
 	void PlayeScene::Initialize()
 	{
-		
 		mSkul = new Skul();
+		mPlayeBG = new PlayeBG();
 		AddGameObeject(mSkul, eLayerType::Player);
+		AddGameObeject(mPlayeBG, eLayerType::BG);
 
 		Scene::Initialize();
 	}

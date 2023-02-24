@@ -4,6 +4,7 @@
 namespace ya
 {
 	class Skul;
+	class PlayeBG;
 	class PlayeScene : public Scene
 	{
 	public:
@@ -20,5 +21,6 @@ namespace ya
 
 	private:
 		Skul* mSkul;
+		PlayeBG* mPlayeBG;
 	};
 }
