@@ -15,7 +15,8 @@ namespace ya
 	}
 	void PlayeBG::Initialize()
 	{
-		mImage = Resources::Load<Image>(L"PlayeBG", L"..\\Resources\\PlayeBG.bmp");
+		mImage = Resources::Load<Image>(L"PlayeBG", L"..\\Resources\\EndingBG.bmp");
+		//mImage = Resources::Load<Image>(L"PlayeBG", L"..\\Resources\\PlayeBG.bmp");
 
 		GameObject::Initialize();
 	}
