@@ -15,7 +15,7 @@ namespace ya
 	}
 	void Skul::Initialize()
 	{
-		mImage = Resources::Load<Image>(L"Skul", L"..\\Resources\\Idle2.bmp");
+		mImage = Resources::Load<Image>(L"Skul", L"..\\Resources\\Idle.bmp");
 
 		GameObject::Initialize();
 	}
@@ -48,22 +48,22 @@ namespace ya
 
 		if (Input::GetKeyState(eKeyCode::A) == eKeyState::Pressed)
 		{
-			pos.x -= 500.0f * Time::DeltaTime();
+			pos.x -= 300.0f * Time::DeltaTime();
 		}
 
 		if (Input::GetKeyState(eKeyCode::D) == eKeyState::Pressed)
 		{
-			pos.x += 500.0f * Time::DeltaTime();
+			pos.x += 300.0f * Time::DeltaTime();
 		}
 
 		if (Input::GetKeyState(eKeyCode::W) == eKeyState::Pressed)
 		{
-			pos.y -= 500.0f * Time::DeltaTime();
+			pos.y -= 300.0f * Time::DeltaTime();
 		}
 
 		if (Input::GetKeyState(eKeyCode::S) == eKeyState::Pressed)
 		{
-			pos.y += 500.0f * Time::DeltaTime();
+			pos.y += 300.0f * Time::DeltaTime();
 		}
 
 		tr->SetPos(pos);
