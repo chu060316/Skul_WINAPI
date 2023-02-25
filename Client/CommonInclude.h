@@ -14,3 +14,19 @@
 #include <map>
 
 #pragma comment(lib, "Msimg32.lib")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
